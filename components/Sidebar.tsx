@@ -29,8 +29,8 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="/images/jawad ali.pdf"
-        download="Jawad Ali Resume.pdf"
+        href="/images/Jawad ali.pdf"
+        download="Jawad ali Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
@@ -58,13 +58,13 @@ const Sidebar = () => {
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" /> <span>Wazirabad,Pakistan</span>
         </div>
-        <p className="my-2 "> 024jawadali@gmail.com</p>
-        <p className="my-2"> 0341-0498631 </p>
+        {/* <p className="my-2 "> 024jawadali@gmail.com</p>
+        <p className="my-2"> 0341-0498631 </p> */}
       </div>
 
       {/* Email Button */}
 
-      <button
+      {/* <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
         onClick={() =>
           window.open(
@@ -73,7 +73,7 @@ const Sidebar = () => {
         }
       >
         Email me
-      </button>
+      </button> */}
       <button
         onClick={changeTheme}
         className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
